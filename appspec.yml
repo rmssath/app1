@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:078861816452:task-definition/taskapp1"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:078861816452:task-definition/taskapp1:7"
         LoadBalancerInfo:
           ContainerName: "mycluster"
           ContainerPort: 80
