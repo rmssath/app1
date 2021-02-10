@@ -4,7 +4,7 @@
     "taskDefinition": "taskapp1",
     "loadBalancers": [
         {
-            "targetGroupArn": arn:aws:elasticloadbalancing:ap-south-1:078861816452:targetgroup/app1-green-tg/d9b718b112f41a8a",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:078861816452:targetgroup/app1-green-tg/d9b718b112f41a8a",
             "containerName": "app",
             "containerPort": 80
         }
