@@ -5,7 +5,7 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:ap-south-1:078861816452:task-definition/taskapp1:7"
         LoadBalancerInfo:
-          ContainerName: "mycluster"
+          ContainerName: "App1"
           ContainerPort: 80
 # Optional properties
         PlatformVersion: "LATEST"
