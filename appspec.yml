@@ -9,7 +9,6 @@ Resources:
           ContainerPort: 80
 # Optional properties
         PlatformVersion: "LATEST"
-        DesiredCount: 1
         NetworkConfiguration:
           AwsvpcConfiguration:
             Subnets: ["subnet-c271fcb9", "subnet-7a041112", "subnet-09d7ac45"]
